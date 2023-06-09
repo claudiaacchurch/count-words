@@ -11,7 +11,7 @@
 # Expected: theswiftfoxjumpedoverthelazydog
 #   Actual: {decode('EMBAXNKEKSYOVQTBJSWBDEMBPHZGJSL', 'secretkey')}
 # """)
-from lib.cipher import *
+from lib.cipher_debug import *
 
 def test_cipher_encode():
     result = encode("theswiftfoxjumpedoverthelazydog", "secretkey")
